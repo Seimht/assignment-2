@@ -1,0 +1,73 @@
+/*
+  Seim Habte
+  09.03.2025
+  CSC 372-01
+  style.css: Styles for destination.html
+*/
+
+/* Generic styles */
+body {
+    background-color: white;
+    background-image: url("images/background.jpg"); /* Extra Feature */
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    margin: 20px;
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #A4A400;
+  }
+  
+  h2 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #A4A400;
+  }
+  
+  /* Links */
+  a {
+    color: #A4A400;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Blockquote */
+  blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 30px;
+    padding: 15px;
+    border-left: 4px solid #A4A400;
+  }
+  blockquote strong {
+    font-weight: bold;
+  }
+  
+  /* Custom list bullets - Extra Feature */
+  ul {
+    list-style-image: url("images/bullet.png");
+  }
+  
+  /* Images */
+  figure {
+    text-align: center;
+    margin: 20px 0;
+  }
+  figcaption {
+    font-size: 10pt;
+    color: #404040;
+    margin-top: 5px;
+  }
+  
